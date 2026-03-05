@@ -439,12 +439,5 @@ with tabs[9]:
     Thank you for participating in this interactive presentation.
     """)
 
-    # Initialize session state
-    if "balloons_shown" not in st.session_state:
-        st.session_state.balloons_shown = False
-
-    # Show balloons only once
-    if not st.session_state.balloons_shown:
-        st.balloons()
-        st.session_state.balloons_shown = True
+  
 
